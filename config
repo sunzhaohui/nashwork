@@ -172,10 +172,6 @@ Host xc
 	HostName 172.16.0.202
 	Port 22
 	User deploy
-Host xa
-	HostName 172.16.0.203
-	Port 22
-	User deploy
 Host 205
 	HostName 172.16.0.205
 	Port 5331
