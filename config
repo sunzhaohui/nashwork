@@ -197,10 +197,6 @@ Host 212
 	HostName 111.204.21.35
 	Port 22
 	User root
-Host 214
-	HostName 172.16.0.214
-	Port 22
-	User root
 Host 215
 	HostName 172.16.0.215
 	Port 5331
