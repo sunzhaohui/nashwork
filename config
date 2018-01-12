@@ -168,10 +168,6 @@ Host 50
     ForwardX11 yes
     ForwardAgent yes
     ForwardX11 yes
-Host xc
-	HostName 172.16.0.202
-	Port 22
-	User deploy
 Host 205
 	HostName 172.16.0.205
 	Port 5331
