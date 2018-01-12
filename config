@@ -184,10 +184,6 @@ Host 206
 	HostName 172.16.0.206
 	Port 5331
 	User deploy
-Host xb
-	HostName 172.16.0.207
-	Port 22
-	User deploy
 Host 209
 	HostName 172.16.0.209
 	Port 5331
