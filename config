@@ -205,12 +205,4 @@ Host 215
 	HostName 172.16.0.215
 	Port 5331
 	User deploy
-Host xe
-	HostName 172.16.0.216
-	Port 22
-	User deploy
-Host xd
-	HostName 172.16.0.219
-	Port 22
-	User deploy
 
