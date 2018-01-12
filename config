@@ -1,0 +1,223 @@
+Host nginx1.ops
+	HostName l-nginx1.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host nginx2.ops
+	HostName l-nginx2.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host crm1.ops
+	HostName l-crm1.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host crm2.ops
+	HostName l-crm2.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host static1.ops
+	HostName l-static1.ops.bj3.nashwork.com
+	Port 22
+	User root
+
+Host www1.ops
+	HostName l-www1.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host www2.ops
+	HostName l-www2.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host sso1.ops
+	HostName l-sso1.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host sso2.ops
+	HostName l-sso2.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host openapi1.ops
+	HostName l-openapi1.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host ms1.ops
+	HostName l-ms1.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host ms2.ops
+	HostName l-ms2.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host channel1.ops
+	HostName l-channel1.ops.bj3.nashwork.com
+	Port 22
+	User root
+
+Host channel2.ops
+	HostName l-channel2.ops.bj3.nashwork.com
+	Port 22
+	User root
+
+Host nginx1.qa
+	HostName 172.20.10.15
+        Port 22
+	User root
+Host task1.qa
+	HostName 172.20.10.38
+        Port 22
+	User root
+Host channel1.qa
+	HostName 172.20.10.29
+        Port 22
+	User root
+Host cache1.qa
+	HostName 172.20.10.27
+        Port 22
+	User root
+Host ms1.qa
+	HostName 172.20.10.26
+        Port 22
+	User root
+
+Host sso1.qa
+	HostName 172.20.10.20
+	Port 22
+	User root
+Host crm1.qa
+	HostName 172.20.10.16
+	Port 22
+	User root
+Host openapi1.qa
+	HostName 172.20.10.18
+        Port 22
+	User root
+Host db1.qa
+	HostName 172.20.10.19
+        Port 22
+	User root
+
+Host gateway1
+	HostName 172.20.10.3
+	#HostName l-gateway1.ops.bj3.nashwork.com
+	#HostName l2tp.vpn.corp.nashwork.com
+	Port 22
+	User root
+Host gateway2
+	#HostName 139.198.3.114
+	HostName 172.20.10.24
+	Port 22
+	User root
+Host ap
+	HostName 192.168.100.1
+	Port 22
+	User root
+Host gateway1.so
+	#HostName l-gateway1.so.bj3.nashwork.com
+	HostName gateway1.so.nashwork.com
+	Port 22
+	User root
+	
+Host monitor1
+	HostName l-monitor1.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host  dev5
+	HostName l-dev5.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host samba
+	HostName l-core1.ops.bj3.nashwork.com
+	Port 22
+	User root
+Host kvm
+	HostName 192.168.8.7
+	Port 22
+	User root
+    	ForwardX11Trusted yes
+    	ForwardX11 yes
+    	ForwardAgent yes
+    	ForwardX11 yes
+Host oa
+    HostName 114.55.130.35
+    Port 5331
+    User deploy
+    
+Host 10.10.10.1
+    Hostname 10.10.10.1
+    Port 22
+    User deploy
+    KexAlgorithms +diffie-hellman-group1-sha1
+Host 2.3
+    HostName 192.168.2.3 
+    Port 22 
+    User deploy
+  
+Host 200
+	#HostName 172.16.0.200
+	HostName 111.204.21.36
+	Port 5331
+	User root
+    ForwardX11Trusted yes
+    ForwardX11 yes
+    ForwardAgent yes
+    ForwardX11 yes
+Host 50
+	HostName 172.16.0.50
+	Port 22
+	User root
+    ForwardX11Trusted yes
+    ForwardX11 yes
+    ForwardAgent yes
+    ForwardX11 yes
+Host 201
+	HostName 172.16.0.201
+	Port 5331
+	User deploy
+Host xc
+	HostName 172.16.0.202
+	Port 22
+	User deploy
+Host xa
+	HostName 172.16.0.203
+	Port 22
+	User deploy
+Host 205
+	HostName 172.16.0.205
+	Port 5331
+	User deploy
+Host 204
+	HostName 172.16.0.204
+	Port 5331 
+	User deploy
+Host 206 
+	HostName 172.16.0.206
+	Port 5331
+	User deploy
+Host xb
+	HostName 172.16.0.207
+	Port 22
+	User deploy
+Host 209
+	HostName 172.16.0.209
+	Port 5331
+	User deploy
+Host 212
+	#HostName 172.16.0.212
+	HostName 111.204.21.35
+	Port 22
+	User root
+Host 214
+	HostName 172.16.0.214
+	Port 22
+	User root
+Host 215
+	HostName 172.16.0.215
+	Port 5331
+	User deploy
+Host xe
+	HostName 172.16.0.216
+	Port 22
+	User deploy
+Host xd
+	HostName 172.16.0.219
+	Port 22
+	User deploy
