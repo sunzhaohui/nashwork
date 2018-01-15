@@ -193,5 +193,3 @@ Host 215
 	HostName 172.16.0.215
 	Port 5331
 	User deploy
-#qa
-#qa
