@@ -1,6 +1,6 @@
 push:
 	@git add -f ./* 
-	@git commit -m "${reason}"
+	@git commit -m "${reason}."
 	
 	@git push -u origin master
 #make push -e reason="xxx"
