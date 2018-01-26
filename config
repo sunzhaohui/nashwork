@@ -6,6 +6,24 @@ Host nginx2.ops
 	HostName l-nginx2.ops.bj3.nashwork.com
 	Port 22
 	User root
+Host nami1.ops
+	HostName l-nami1.ops.bj3.nashwork.com
+	Port 22
+	User root
+
+Host nami1.qa
+	HostName l-nami1.qa.bj3.nashwork.com
+	Port 22
+	User root
+Host contract1.qa
+	HostName l-contract1.qa.bj3.nashwork.com
+	Port 22
+	User root
+Host nami2.qa
+	HostName l-nami2.qa.bj3.nashwork.com
+	Port 22
+	User root
+
 Host crm1.ops
 	HostName l-crm1.ops.bj3.nashwork.com
 	Port 22
@@ -115,6 +133,11 @@ Host gateway1.so
 	HostName gateway1.so.nashwork.com
 	Port 22
 	User root
+Host gateway1.so.sh
+	#HostName l-gateway1.so.bj3.nashwork.com
+	HostName gateway1.so.sh.nashwork.com
+	Port 22
+	User root
 	
 Host monitor1
 	HostName l-monitor1.ops.bj3.nashwork.com
@@ -124,7 +147,7 @@ Host  dev5
 	HostName l-dev5.ops.bj3.nashwork.com
 	Port 22
 	User root
-Host samba
+Host core1
 	HostName l-core1.ops.bj3.nashwork.com
 	Port 22
 	User root
@@ -168,6 +191,18 @@ Host 50
     ForwardX11 yes
     ForwardAgent yes
     ForwardX11 yes
+Host 201
+	HostName 172.16.0.201
+	Port 5331
+	User deploy
+Host xc
+	HostName 172.16.0.202
+	Port 22
+	User deploy
+Host xa
+	HostName 172.16.0.203
+	Port 22
+	User deploy
 Host 205
 	HostName 172.16.0.205
 	Port 5331
@@ -180,6 +215,10 @@ Host 206
 	HostName 172.16.0.206
 	Port 5331
 	User deploy
+Host xb
+	HostName 172.16.0.207
+	Port 22
+	User deploy
 Host 209
 	HostName 172.16.0.209
 	Port 5331
@@ -189,8 +228,19 @@ Host 212
 	HostName 111.204.21.35
 	Port 22
 	User root
+Host 214
+	HostName 172.16.0.214
+	Port 22
+	User root
 Host 215
 	HostName 172.16.0.215
 	Port 5331
 	User deploy
-#git is a free sotfware..
+Host xe
+	HostName 172.16.0.216
+	Port 22
+	User deploy
+Host xd
+	HostName 172.16.0.219
+	Port 22
+	User deploy
